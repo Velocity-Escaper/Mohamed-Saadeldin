@@ -126,7 +126,7 @@
             
         }
 
-         .img img {
+        #navbar .img img {
             border-radius: 50%;
             width: 160px;
             position: relative;
@@ -136,18 +136,18 @@
             outline: none;
             animation-name: border-spin;
             animation-duration: 2s;
-            animation-iteration-count: infinite;     
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;      
 
         }
              
              @keyframes border-spin {
                       
-                      0% {border: 5%;}
-                      100% {border: 100%}
+                      0% {transform: rotate (0deg);}
+                      100% {transform: rotate (360deg);}
 
 
 
-        img:hover {transition: 1s; transform: scale(0.85); }
 
 
 
