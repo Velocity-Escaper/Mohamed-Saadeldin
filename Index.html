@@ -231,8 +231,14 @@
             outline: none;
             border-radius: 140px;
             width: 95px;
+            animation: spin 6s linear infinite reverse;   
             
         }
+             
+             @keyframes spin {
+                      0% {transform: rotate (0deg);}
+                      100% {transform: rotate (3600deg);}
+             }
 
 
         .btn .xxx:hover  {
