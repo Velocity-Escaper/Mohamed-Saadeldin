@@ -16,7 +16,8 @@
 
         <section id="navbar">
             <div class="img">
-                     <img class="img" src="https://avatars.githubusercontent.com/u/85317417?v=4" alt="profile-picture">
+                     <img class="img" src="https://avatars.githubusercontent.com/u/85317417?v=4" alt="profile-picture"> 
+                     /*** my profile picture is stored in my profile page on Github that's why it can appear anywhere else *****/
             </div>
             <label class="label">Mohamed Saadeldin</label>
 
@@ -141,7 +142,7 @@
              .img img {
                       
             box-shadow: 0 0 0 20px #1C7373, 0 0 0 40px #B8DCDC, 0 0 0 60px #00FFFF20, 0 0 0 80px #16F7F7, 0 0 40px 100px #E5503E;       
-            animation: sunrise 5s infinite linear forwards, rays  5s infinite ease-out;
+            animation: sunrise 3.5s infinite linear forwards, rays  3.5s infinite ease-out; /**** controls time rays animation around my profile picture ******/
                       
              }
              
@@ -150,7 +151,7 @@
                       
                       
              
-             @keyframes sunrise { 0% {box-shadow: none;}  }
+             @keyframes sunrise {0% {box-shadow: none;}}
                  
                 
              @keyframes rays {
@@ -177,7 +178,6 @@
             top: 155px;
             color: white;
             background-color: transparent;
-            animation: animate__heartBeat;
             animation-duration: 3s;     
            
         }
@@ -239,9 +239,9 @@
 
         .btn .xxx:hover  {
             outline: 0;
-            transition: 1s;        
+            transition: 0.5s;        
             /**** color: transparent;  If you want it to disappear *****/   
-            transform: rotate(3600deg);       /***** rotates better than just 360 deg ********/        
+            transform: rotate(3600deg) infinite;       /***** rotates better than just 360 deg ********/        
             
         }
           
